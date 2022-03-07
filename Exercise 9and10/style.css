@@ -1,0 +1,56 @@
+/* phone */
+
+h2 {
+  display: none;
+  color: white;
+}
+
+body {
+  background-color: black;
+}
+
+/* .very-small {
+  display: block;
+} */
+/* phone screen */
+@media screen and (max-width: 600px) {
+  .very-small {
+    display: block;
+  }
+}
+/* Tablet */
+@media screen and (min-width: 600px) and (max-width: 788px) {
+  body {
+    background-color: lightsalmon;
+  }
+  .small {
+    display: block;
+  }
+}
+/* small pc */
+@media screen and (min-width: 789px) and (max-width: 991px) {
+  body {
+    background-color: red;
+  }
+  .medium {
+    display: block;
+  }
+}
+/* large screen */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  body {
+    background-color: blueviolet;
+  }
+  .large {
+    display: block;
+  }
+}
+/* extra large screen */
+@media screen and (min-width: 1200px) {
+  body {
+    background-color: grey;
+  }
+  .very-large {
+    display: block;
+  }
+}
